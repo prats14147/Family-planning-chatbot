@@ -1,8 +1,10 @@
-pandas
 flask
+requests
+pandas
+numpy
+gTTS
+python-dotenv
 langchain
 langchain-openai
-langchain-community
-faiss-cpu
 tiktoken
 openai
