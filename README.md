@@ -30,3 +30,4 @@ This app supports:
 
 - Local auth: Sign up, then log in.
 - Google: Click "Continue with Google" on login or signup screens.
+# familychatbot
