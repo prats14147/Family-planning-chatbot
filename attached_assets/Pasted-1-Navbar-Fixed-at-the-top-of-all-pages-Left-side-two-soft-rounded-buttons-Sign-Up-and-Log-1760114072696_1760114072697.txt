@@ -1,0 +1,128 @@
+1. Navbar
+
+Fixed at the top of all pages.
+
+Left side: two soft, rounded buttons — “Sign Up” and “Login” (with hover effects).
+
+Center or left: show the logo — a small heart or family icon next to the text “FamilyCare”.
+
+Right side: navigation links — Home, About Us, Contact Us.
+
+Background color: white or pastel blue.
+
+Stays visible when scrolling (sticky navbar).
+
+2. Hero Section (on the Home Page)
+
+Placed below the navbar.
+
+Two main parts:
+
+Left: Circular image with a soft drop shadow (e.g., a family illustration).
+
+Right:
+
+Title: “Family Planning Chatbot” (bold, modern font).
+
+Subtitle: “Where technology meets expert guidance for your family planning needs.”
+
+Button below: “Try Chatbot” — gradient background (light pink → purple), slightly to the left, with smooth hover or animation effect.
+
+Add soft animations or transitions when hovering over elements.
+
+3. Footer
+
+At the bottom of all pages.
+
+Light background matching the theme (pastel pink, lavender, mint green, or sky blue).
+
+Text:
+
+“© 2025 Family Planning Chatbot | All rights reserved.”
+
+Include simple social media icons (Facebook, Instagram, etc.) if possible.
+
+🎨 Design Notes
+
+Use soft, calm pastel colors.
+
+Add rounded corners, shadows, and smooth transitions for all UI elements.
+
+Make it fully responsive for mobile devices.
+
+Use clean fonts such as Poppins, Roboto, or Nunito.
+
+💬 Chatbot Functionality
+Pages:
+
+Home Page (index.html) — shows navbar, hero section, and footer.
+
+The “Try Chatbot” button should lead to the chatbot page (chat.html).
+
+Chatbot Page (chat.html) — interactive chatbot interface:
+
+Chat bubbles for user and bot messages.
+
+Input box and send button.
+
+Display current language (English or Nepali).
+
+A toggle or buttons to switch language easily.
+
+⚙️ Backend (Flask - app.py)
+Features:
+
+Endpoint: /get_response
+
+Input: { "message": "...", "language": "english/nepali" }
+
+Logic:
+
+Load static Q&A data from chatbot_data.json.
+
+If a question matches the static dataset, return that answer.
+
+If not found or the user asks for “latest”, “recent”, or “update”, fetch live data from a health-related API (e.g., WHO, public health datasets).
+
+Combine both static and live data replies when available.
+
+Return a JSON response to the frontend.
+
+Example folder structure:
+/static
+  ├── style.css
+/templates
+  ├── index.html
+  ├── chat.html
+app.py
+chatbot_data.json
+
+🧠 Data Handling
+Static data:
+
+Store common Q&A in chatbot_data.json in both English and Nepali:
+
+{
+  "english": {
+    "what is family planning": "Family planning allows people to decide freely and responsibly the number and spacing of their children.",
+    "types of family planning": "Natural, barrier, hormonal, and permanent methods."
+  },
+  "nepali": {
+    "family planning bhane ko ke ho": "परिवार नियोजन भनेको बच्चा कहिले र कति जनाको जन्म दिने भन्ने निर्णय गर्नु हो।",
+    "family planning ka k k tarika chan": "प्राकृतिक, अस्थायी र स्थायी परिवार नियोजनका तरिका हुन्छन्।"
+  }
+}
+
+Live API data:
+
+Fetch real-time info from an external API (e.g., WHO, health data, or a mock API).
+
+Example use:
+
+“Show latest info on family planning.”
+
+“Get nearby clinics.”
+
+If the API fails, fall back to static data.
+
+Mark the source clearly: e.g., “(From live data source)” or “(From chatbot data)”.

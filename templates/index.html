@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FamilyCare - Family Planning Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <a href="/" class="logo">
+                    <i class="fas fa-heart"></i>
+                    <span>FamilyCare</span>
+                </a>
+            </div>
+            <div class="nav-center">
+                <ul class="nav-links">
+                    <li><a href="/" class="active">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+<!-- fixing -->
+                <!-- <button class="btn-auth">Sign Up</button>
+                <button class="btn-auth btn-login">Login</button> -->
+
+                <button onclick="window.location.href='/login'" class="btn-auth btn-login">Login</button>
+                <button onclick="window.location.href='/signup'" class="btn-auth">Sign Up</button>
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-image">
+                <div class="image-circle">
+                    <i class="fas fa-users"></i>
+                </div>
+            </div>
+            <div class="hero-content">
+                <h1>Family Planning Assistant</h1>
+                <p>Where technology meets expert guidance for your family planning needs.</p>
+                <a href="/chat" class="btn-chatbot">
+                    <span>Try Chatbot</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <h2>About Us</h2>
+            <p>FamilyCare is your trusted digital companion for family planning information. We provide accurate, compassionate, and bilingual support to help you make informed decisions about your reproductive health. Our chatbot offers instant access to expert guidance in both English and Nepali.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <h2>Contact Us</h2>
+            <p>Have questions or feedback? We'd love to hear from you!</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>info@familycare.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+977-1-XXXXXXX</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2025 Family Planning Chatbot | All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

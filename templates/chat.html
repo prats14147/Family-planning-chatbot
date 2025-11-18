@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - FamilyCare</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/microphone?f=classic&s=solid">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <a href="/" class="logo">
+                    <i class="fas fa-heart"></i>
+                    <span>FamilyCare</span>
+                </a>
+            </div>
+            <div class="nav-center">
+                <ul class="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/#about">About Us</a></li>
+                    <li><a href="/#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <!-- <button onclick="window.location.href='/login'" class="btn-auth btn-login">Login</button>
+                <button onclick="window.location.href='/signup'" class="btn-auth">Sign Up</button> -->
+
+                {% if username %}
+                    <button onclick="window.location.href='/profile'" class="btn-auth">My Account</button>
+                    <button onclick="window.location.href='/logout'" class="btn-auth btn-login">Logout</button>
+                {% else %}
+                    <button onclick="window.location.href='/login'" class="btn-auth btn-login">Login</button>
+                    <button onclick="window.location.href='/signup'" class="btn-auth">Sign Up</button>
+                {% endif %}
+                
+            </div>
+
+            
+
+        </div>
+    </nav>
+
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="chat-title">
+                <i class="fas fa-comments"></i>
+                <h2>FamilyCare Assistant</h2>
+            </div>
+            <div class="language-toggle">
+                <span class="lang-label">Language:</span>
+                <button class="lang-btn active" data-lang="english">English</button>
+                <button class="lang-btn" data-lang="nepali">नेपाली</button>
+            </div>
+        </div>
+
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot-message">
+                <div class="message-avatar">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="message-content">
+                    <p>Hello! Welcome to FamilyCare. I'm here to help you with family planning information. How can I assist you today?</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-input-container">
+            <div class="chat-input-wrapper">
+                <input type="text" id="userInput" placeholder="Type your question here..." autocomplete="off">
+                
+                <button id="sendBtn">
+                <i class="fas fa-paper-plane"></i>
+                </button>
+
+                <button id="voice-command-btn">
+                <i class="fas fa-microphone"></i>
+            </button>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2025 Family Planning Chatbot | All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+

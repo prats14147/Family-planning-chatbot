@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Profile - FamilyCare</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-left">
+          <a href="/" class="logo">
+            <i class="fas fa-heart"></i>
+            <span>FamilyCare</span>
+          </a>
+        </div>
+        <div class="nav-center">
+          <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/#about">About Us</a></li>
+            <li><a href="/#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="nav-right">
+          <button
+            onclick="window.location.href='/logout'"
+            class="btn-auth btn-login"
+          >
+            Logout
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="auth-container">
+      <h2>My Account</h2>
+      <p><strong>Username:</strong> {{ username }}</p>
+      {% if email %}
+      <p><strong>Email:</strong> {{ email }}</p>
+      {% endif %}
+      <p><strong>Signed in via:</strong> {{ provider|capitalize }}</p>
+      <br />
+      <button onclick="window.location.href='/chat'" class="btn-auth btn-login">
+        Back to Chat
+      </button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "english": {
+    "what is family planning": "Family planning allows people to decide freely and responsibly the number and spacing of their children. It includes contraceptive methods and treatments for infertility.",
+    "types of family planning": "There are several types: Natural methods (fertility awareness), Barrier methods (condoms, diaphragm), Hormonal methods (pills, injections, implants), IUDs (intrauterine devices), and Permanent methods (sterilization).",
+    "what are family planning methods": "Family planning methods include natural, barrier, hormonal, and permanent options. Each has different effectiveness rates and suits different needs.",
+    "benefits of family planning": "Family planning helps improve maternal and child health, reduces infant mortality, empowers women, supports economic development, and allows couples to plan their families according to their desires.",
+    "where can i get family planning services": "Family planning services are available at local health centers, hospitals, clinics, and community health workers. Many services offer counseling and various contraceptive options.",
+    "is family planning safe": "Yes, modern family planning methods are safe when used correctly. Healthcare providers can help you choose the best method for your health situation and lifestyle.",
+    "natural family planning methods": "Natural methods include fertility awareness, calendar method, basal body temperature tracking, and cervical mucus monitoring. These require regular tracking and partner cooperation.",
+    "hormonal contraceptives": "Hormonal contraceptives include birth control pills, patches, injections (Depo-Provera), implants (Nexplanon), and hormonal IUDs. They work by preventing ovulation.",
+    "iud information": "IUDs (Intrauterine Devices) are small T-shaped devices inserted into the uterus. They can be hormonal or copper-based and provide long-term protection (3-12 years).",
+    "emergency contraception": "Emergency contraception (morning-after pill) can prevent pregnancy when taken within 72-120 hours after unprotected sex. It's available at pharmacies and health centers.",
+    "family planning side effects": "Side effects vary by method. Common ones include irregular bleeding, headaches, mood changes, or weight fluctuation. Consult a healthcare provider if side effects are concerning.",
+    "family planning for men": "Men can use condoms (barrier method) or choose vasectomy (permanent method). Condoms also protect against STIs.",
+    "hello": "Hello! Welcome to FamilyCare, your trusted family planning assistant. How can I help you today?",
+    "hi": "Hi there! I'm here to answer your questions about family planning. What would you like to know?",
+    "help": "I can help you with information about family planning methods, benefits, safety, services, and much more. Just ask me any question!",
+    "thank you": "You're welcome! Feel free to ask if you have more questions about family planning.",
+    "thanks": "Happy to help! Don't hesitate to reach out if you need more information."
+  },
+  "nepali": {
+    "family planning bhane ko ke ho": "परिवार नियोजन भनेको बच्चा कहिले र कति जनाको जन्म दिने भन्ने निर्णय स्वतन्त्र र जिम्मेवारीपूर्वक गर्नु हो। यसमा गर्भनिरोधक विधिहरू र बाँझोपनको उपचार समावेश छन्।",
+    "family planning ka tarika": "परिवार नियोजनका धेरै तरिकाहरू छन्: प्राकृतिक विधि (प्रजनन जागरूकता), अवरोध विधि (कन्डम, डायाफ्राम), हर्मोनल विधि (चक्की, सुई, प्रत्यारोपण), आईयूडी, र स्थायी विधि (नसबन्दी)।",
+    "family planning ka faida": "परिवार नियोजनले आमा र बच्चाको स्वास्थ्य सुधार गर्छ, शिशु मृत्युदर घटाउँछ, महिला सशक्तिकरण गर्छ, आर्थिक विकासमा सहयोग गर्छ र दम्पतीलाई आफ्नो इच्छा अनुसार परिवार योजना बनाउन मद्दत गर्छ।",
+    "family planning sewa kaha paincha": "परिवार नियोजन सेवाहरू स्थानीय स्वास्थ्य केन्द्र, अस्पताल, क्लिनिक र सामुदायिक स्वास्थ्य कार्यकर्ताहरूबाट उपलब्ध छन्। धेरै सेवाहरूले परामर्श र विभिन्न गर्भनिरोधक विकल्पहरू प्रदान गर्छन्।",
+    "family planning surakshit cha": "हो, आधुनिक परिवार नियोजन विधिहरू सही तरिकाले प्रयोग गर्दा सुरक्षित छन्। स्वास्थ्यकर्मीहरूले तपाईंको स्वास्थ्य अवस्था र जीवनशैलीको लागि उत्तम विधि छनौट गर्न मद्दत गर्न सक्छन्।",
+    "prakritik family planning": "प्राकृतिक विधिहरूमा प्रजनन जागरूकता, क्यालेन्डर विधि, शरीरको तापक्रम ट्र्याकिङ, र ग्रीवा म्युकस निगरानी समावेश छन्। यसका लागि नियमित ट्र्याकिङ र साझेदारको सहयोग चाहिन्छ।",
+    "hormonal contraceptives": "हर्मोनल गर्भनिरोधकहरूमा गर्भनिरोधक चक्की, प्याच, सुई (डेपो-प्रोभेरा), प्रत्यारोपण (नेक्सप्लानन), र हर्मोनल आईयूडी समावेश छन्। यसले अण्डोत्पादन रोकेर काम गर्छ।",
+    "iud janakari": "आईयूडी (अन्तर्गर्भाशयी उपकरण) गर्भाशयमा राखिने सानो टी-आकारको उपकरण हो। यो हर्मोनल वा तामा-आधारित हुन सक्छ र लामो समयसम्म सुरक्षा प्रदान गर्छ (३-१२ वर्ष)।",
+    "emergency contraception": "आकस्मिक गर्भनिरोधक (मर्निङ-आफ्टर पिल) असुरक्षित यौन सम्पर्क पछि ७२-१२० घण्टा भित्र लिएमा गर्भधारण रोक्न सक्छ। यो फार्मेसी र स्वास्थ्य केन्द्रहरूमा उपलब्ध छ।",
+    "family planning side effects": "दुष्प्रभावहरू विधि अनुसार फरक हुन्छन्। सामान्य दुष्प्रभावहरूमा अनियमित रक्तस्राव, टाउको दुख्ने, मुड परिवर्तन, वा तौल घट-बढ समावेश छन्। चिन्ताजनक दुष्प्रभाव भएमा स्वास्थ्यकर्मीसँग परामर्श गर्नुहोस्।",
+    "purush family planning": "पुरुषहरूले कन्डम (अवरोध विधि) प्रयोग गर्न वा भ्यासेक्टोमी (स्थायी विधि) छनौट गर्न सक्छन्। कन्डमले यौनजन्य संक्रमणबाट पनि जोगाउँछ।",
+    "namaste": "नमस्ते! FamilyCare मा स्वागत छ, तपाईंको विश्वसनीय परिवार नियोजन सहायक। म तपाईंलाई कसरी मद्दत गर्न सक्छु?",
+    "help": "म तपाईंलाई परिवार नियोजन विधिहरू, फाइदाहरू, सुरक्षा, सेवाहरू र धेरै बारे जानकारी दिन सक्छु। कुनै पनि प्रश्न सोध्नुहोस्!",
+    "dhanyabad": "स्वागत छ! परिवार नियोजन बारे थप प्रश्नहरू भए सोध्न नहिचकिचाउनुहोस्।"
+  }
+}
